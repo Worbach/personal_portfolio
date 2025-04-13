@@ -4,6 +4,9 @@ import "./index.css";
 import {useState} from "react";
 import {Navbar} from "./components/Navbar.jsx";
 import {MobileMenu} from "./components/MobileMenu.jsx";
+import {Home} from "./components/sections/Home.jsx";
+import {About} from "./components/sections/About.jsx";
+
 
 
 function App() {
@@ -17,6 +20,8 @@ function App() {
 
             <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+            <Home />
+            <About />
         </div>
       </>
   );
