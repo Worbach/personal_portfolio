@@ -32,7 +32,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://differentpartofwebsite.tech"
+                            <a href="#firstproject"
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
@@ -60,7 +60,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://differentpartofwebsite.tech"
+                            <a href="#secondproject"
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
@@ -88,7 +88,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://differentpartofwebsite.tech"
+                            <a href="#thirdproject"
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
@@ -116,7 +116,7 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://differentpartofwebsite.tech"
+                            <a href="#fourthproject"
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>

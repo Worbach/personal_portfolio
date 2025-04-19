@@ -8,7 +8,7 @@ import {Home} from "./components/sections/Home.jsx";
 import {About} from "./components/sections/About.jsx";
 import {Projects} from "./components/sections/Projects.jsx";
 import {Contact} from "./components/sections/Contact.jsx";
-
+import {ProjectDescription} from "./components/sections/ProjectDescription.jsx";
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
             <Home />
             <About />
             <Projects />
+            <ProjectDescription />
             <Contact />
         </div>
       </>
