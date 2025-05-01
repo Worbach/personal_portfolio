@@ -16,12 +16,12 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Vacation Scheduler Android Application</h3>
                         <p className="text-gray-400 mb-4">
-                            Scalable cloud infrastructure management with real-time monitoring and automated scaling.
+                        A mobile app designed for Android devices that allows users to plan, manage, and track vacations.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["Android Studio", "Java", "Room Database (SQLite)", "XML layouts", "GitLab for version control", "Gradle for build configuration"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -36,7 +36,7 @@ export const Projects = () => {
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
-                            <a href="https://github.com/Worbach" target="_blank">
+                            <a href="https://github.com/Worbach/Mobile-Scheduling-App" target="_blank">
                                 <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                             </a>
                         </div>
@@ -44,12 +44,12 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Vacation Bookings Back-End System</h3>
                         <p className="text-gray-400 mb-4">
-                            Scalable cloud infrastructure management with real-time monitoring and automated scaling.
+                        A robust, modern, modular Spring Boot API used to replace a legacy travel bookings back-end by managing vacation orders and customer data for a travel agency.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["Java", "Spring Boot (Spring Data JPA & Spring Data REST)", "MySQL Connector/J", "Lombok","RESTful APIs", "GitLab for version control", "Maven for build configuration"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -64,7 +64,7 @@ export const Projects = () => {
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
-                            <a href="https://github.com/Worbach" target="_blank">
+                            <a href="https://github.com/Worbach/Vacation-Bookings-Application" target="_blank">
                                 <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                             </a>
                         </div>
@@ -72,12 +72,12 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Web-Based E-Scooter Inventory Spring Application</h3>
                         <p className="text-gray-400 mb-4">
-                            Scalable cloud infrastructure management with real-time monitoring and automated scaling.
+                        A web-based inventory management system for tracking scooter products, enforcing inventory limits, and streamlining ordering for companies.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["Java", "Spring Framework (Spring Boot)", "HTML/CSS", "JavaScript", "JUnit for unit testing", "Maven for build configuration"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -92,7 +92,7 @@ export const Projects = () => {
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
-                            <a href="https://github.com/Worbach" target="_blank">
+                            <a href="https://github.com/Worbach/Scooter-Inventory-Management-Store" target="_blank">
                                 <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                             </a>
                         </div>
@@ -100,12 +100,12 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Personal Portfolio</h3>
                         <p className="text-gray-400 mb-4">
-                            Scalable cloud infrastructure management with real-time monitoring and automated scaling.
+                            A React-based single web-page tailored to yours truly using TailwindCSS to help showcase the constant pursuit of skills earned through project-based learning.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["JavaScript", "ReactJS", "Vite", "HTML/CSS", "TailwindCSS", "EmailJS"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -120,7 +120,7 @@ export const Projects = () => {
                                className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                                 View Project
                             </a>
-                            <a href="https://github.com/Worbach" target="_blank">
+                            <a href="https://github.com/Worbach/personal_portfolio" target="_blank">
                                 <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                             </a>
                         </div>

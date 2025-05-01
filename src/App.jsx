@@ -9,13 +9,23 @@ import {About} from "./components/sections/About.jsx";
 import {Projects} from "./components/sections/Projects.jsx";
 import {Contact} from "./components/sections/Contact.jsx";
 import {ProjectDescription} from "./components/sections/ProjectDescription.jsx";
-
+import DisplayVideo from './components/DisplayVideo';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-    const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [videoOpen, setVideoOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
   return (<>
     {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    {videoOpen && (
+      <DisplayVideo videoUrl={videoUrl}
+                    onClose={() => {setVideoOpen(false);
+                                    setVideoUrl("");}}
+      />
+                  )
+    }
+
         <div className={`min-h-screen transition-opacity duration-700 ${
               isLoaded ? "opacity-100" : "opacity-0"
             } bg-black text-gray-100`}>
@@ -25,7 +35,11 @@ function App() {
             <Home />
             <About />
             <Projects />
-            <ProjectDescription />
+            <ProjectDescription 
+              videoOpen={videoOpen}
+              setVideoOpen={setVideoOpen}
+              setVideoUrl={setVideoUrl}
+            />
             <Contact />
         </div>
       </>
