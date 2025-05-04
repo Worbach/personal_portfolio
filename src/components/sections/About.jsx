@@ -5,17 +5,20 @@ export const About = () => {
 
     const frontendSkills = [
         "React",
+        "Angular",
         "JavaScript",
         "TailwindCSS",
-        "Angular"
+        "HTML/CSS"
+        
     ];
 
     const backendSkills = [
-        "Node.js",
+        
+        "Java",
         "Python",
         "AWS",
-        "Java",
         "Spring Boot",
+        "Node.js",
         "MySQL"
     ];
 
@@ -33,8 +36,26 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-traanslate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        Passionate developer with expertise in building scalable web applications
-                        and creating innovative solutions.
+                    Hi, my name is <span className="text-l font-bold mb-2 text-blue-500">William Orbach</span>—a recent Software Engineering graduate with a strong passion for building thoughtful, user-centered applications. My academic journey focused heavily on Java and Spring Boot, but I’ve also worked across the full stack, developing both web and mobile applications through hands-on projects.
+                    </p>
+
+                    <p className="text-gray-300 mb-6">
+                    I enjoy turning ideas into practical, scalable software—whether it's a travel 
+                    itinerary planner or a custom booking system. I’m particularly interested in 
+                    clean architecture, intuitive user experiences, and leveraging modern tools to 
+                    solve real-world problems.
+                    </p>
+
+                    <p className="text-gray-300 mb-6">
+                    I’m currently looking for junior or entry-level roles where I can grow as a 
+                    developer, collaborate with a team, and continue learning in a professional 
+                    setting. When I’m not coding, you’ll probably find me exploring new places, 
+                    trying new food, lifting at the gym, or digging into self-improvement
+                    books.
+                    </p>
+
+                    <p className="text-gray-300 mb-6">
+                    Let’s build something great together.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -75,10 +96,10 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> 🎓 Education </h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong> B.S. in Software Engineering </strong> - Western Governors University
+                            <span className="font-bold"> B.S. in Software Engineering</span> - Western Governors University
                             </li>
                             <li>
-                                Relevant Coursework: Data structures, Web Development, Mobile Development
+                                <span className="font-bold"><strong>A.A.S Allied Health</strong></span> - Middlesex College
                             </li>
                         </ul>
                     </div>
@@ -86,16 +107,22 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold"> Job Position at Company (2020 - Present) </h4>
+                                <h4 className="font-semibold"> 
+                                Event Ambassador @ Topgolf
+                                </h4>
                                 <p>
-                                    Developed and maintained microservices for cloud-based applications.
+                                Communicated proactively to resolve issues and supported event 
+                                execution using strong organizational and project management skills 
+                                in fast-paced, team environments.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold"> Internship at XYZ (2019-2020) </h4>
+                                <h4 className="font-semibold"> Tech Support Associate @ CGS </h4>
                                 <p>
-                                    Assisted in building front-ed components and integration REST APIs.
+                                Delivered efficient IT support by resolving technical issues, 
+                                documenting solutions, and communicating clearly to ensure prompt 
+                                and accurate problem resolution.
                                 </p>
                             </div>
                         </div>

@@ -102,10 +102,10 @@ export const Projects = () => {
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         <h3 className="text-xl font-bold mb-2">Personal Portfolio</h3>
                         <p className="text-gray-400 mb-4">
-                            A React-based single web-page tailored to yours truly using TailwindCSS to help showcase the constant pursuit of skills earned through project-based learning.
+                            A ReactJS-based single web-page tailored to yours truly using TailwindCSS to help showcase the constant pursuit of skill improvement developed through project-based learning.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["JavaScript", "ReactJS", "Vite", "HTML/CSS", "TailwindCSS", "EmailJS"].map((tech, key) => (
+                            {["ReactJS", "TailwindCSS", "JavaScript (ES6+)", "HTML5/CSS", "JSX", "Vite", "Git for version control", "EmailJS"].map((tech, key) => (
                                 <span
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm

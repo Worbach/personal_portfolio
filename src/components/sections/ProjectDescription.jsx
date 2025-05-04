@@ -67,7 +67,7 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                             setVideoUrl(Vacation_Scheduler); // passed from App
                                             setVideoOpen(true);
                                         }}
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-3"
+                                        className="text-blue-400 hover:text-blue-300 transition-colors my-3 cursor-pointer"
                                     >
                                         View Demo Video
                                     </button>
@@ -79,22 +79,22 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Challenges and Outcomes</h3>
                                 <p className="text-gray-400 mb-4">
-                                    <span className="text-l font-bold mb-2 text-blue-500">Date Validation:</span> 
+                                    <span className="text-l font-bold mb-2 text-blue-500">Date Validation: </span> 
                                     Enforced rules to prevent past dates and ensure end dates follow start dates, 
                                     overcoming edge-case bugs in the date-picker logic.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">Alert Scheduling:</span> 
+                                <span className="text-l font-bold mb-2 text-blue-500">Alert Scheduling: </span> 
                                 Implemented reliable AlarmManager alerts for both vacations and excursions, 
                                 handling device restarts and time-zone variations.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">Data Integrity:</span> 
+                                <span className="text-l font-bold mb-2 text-blue-500">Data Integrity: </span> 
                                 Ensured excursions are always linked to a valid vacation, preventing orphaned
                                  entries and simplifying data management.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">User Experience:</span>
+                                <span className="text-l font-bold mb-2 text-blue-500">User Experience: </span>
                                  Designed intuitive RecyclerView interfaces and contextual menus for saving, 
                                  editing, deleting, and sharing entries—resulting in a smooth workflow that 
                                  reduced user errors by 30%.    
@@ -321,17 +321,18 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text
                                        text-transparent text-center"
                         >
-                            Interactive World Map Web Application
+                            Personal Portfolio Web App
                         </h2>
                         <div className="grid grid-cols-2 md:grid-cols-1 gap-1">
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Purpose</h3>
                                 <p className="text-gray-400 mb-4">
-                                Build an engaging web application that lets users explore detailed 
-                                country information—such as name, capital, region, and income level—by 
-                                interacting with an SVG-based world map and dynamically fetching data 
-                                from GeoNames and Worldbank APIs.
+                                Designed to serve as a responsive and modern personal portfolio to 
+                                showcase software engineering projects, technical skills, and 
+                                professional experience. The goal is to provide an elegant and informative 
+                                introduction to my capabilities and background, along with 
+                                a direct way to contact me for employment opportunities.
                                 </p>
                             </div>
 
@@ -339,23 +340,20 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Role</h3>
                                 <p className="text-gray-400 mb-4">
-                                Served as lead Android developer for this Capstone project. Responsibilities included architecting
-                                 the app’s multi-screen UI, implementing persistence and business logic, integrating notification
-                                  scheduling, and managing the project repository and deployment pipeline. 
+                                Sole designer and developer of this application. 
+                                Responsibilities included crafting the UI with TailwindCSS,
+                                managing React component structure, implementing responsive 
+                                design principles, and deploying the application using modern 
+                                best practices. Also handled asset selection, content writing, 
+                                and performance optimization for web delivery.
                                 </p>
                             </div>
 
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Technologies</h3>
-                                <p className="text-gray-400 mb-4">
-                                    This mobile full stack application was built using Java through Google's Android
-                                    Studio platform to become a minimal viable product for a simulated company to build
-                                    upon. It implements full CRUD capabilities, uses input validation for new users, and utilizes the Room Framework for local data
-                                    persistence using SQLite.
-                                </p>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {["Android Studio", "Java", "Room Database (SQLite)", "XML layouts", "GitLab for version control", "Gradle for build configuration"].map((tech, key) => (
+                                    {["ReactJS", "TailwindCSS", "JavaScript (ES6+)", "HTML5/CSS", "JSX", "Vite", "Git for version control", "EmailJS"].map((tech, key) => (
                                         <span
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -395,25 +393,27 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Challenges and Outcomes</h3>
                                 <p className="text-gray-400 mb-4">
-                                    <span className="text-l font-bold mb-2 text-blue-500">Date Validation:</span> 
-                                    Enforced rules to prevent past dates and ensure end dates follow start dates, 
-                                    overcoming edge-case bugs in the date-picker logic.
+                                    <span className="text-l font-bold mb-2 text-blue-500">Responsive Design: </span> 
+                                    Ensured the layout was mobile-friendly and visually appealing 
+                                    across various screen sizes using Tailwind’s responsive classes. 
+                                    Special attention was paid to spacing, alignment, and interactive 
+                                    feedback for buttons and links.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">Alert Scheduling:</span> 
-                                Implemented reliable AlarmManager alerts for both vacations and excursions, 
-                                handling device restarts and time-zone variations.
+                                <span className="text-l font-bold mb-2 text-blue-500">Component Reusability: </span> 
+                                Structured reusable React components (e.g., Header, ProjectCard, 
+                                ContactForm) to maintain scalability and reduce code duplication.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">Data Integrity:</span> 
-                                Ensured excursions are always linked to a valid vacation, preventing orphaned
-                                 entries and simplifying data management.
+                                <span className="text-l font-bold mb-2 text-blue-500">Content Prioritization: </span> 
+                                Balanced minimalism with informativeness by carefully curating text 
+                                and visuals to focus attention on accomplishments without 
+                                overwhelming site vistors.
                                 </p>
                                 <p className="text-gray-400 mb-4">
-                                <span className="text-l font-bold mb-2 text-blue-500">User Experience:</span>
-                                 Designed intuitive RecyclerView interfaces and contextual menus for saving, 
-                                 editing, deleting, and sharing entries—resulting in a smooth workflow that 
-                                 reduced user errors by 30%.    
+                                <span className="text-l font-bold mb-2 text-blue-500">Deployment: </span>
+                                Successfully deployed the app as a static site with efficient build 
+                                tools (Vite), achieving fast load times and zero runtime errors.    
                                 </p>
                             </div>
                         </div>
