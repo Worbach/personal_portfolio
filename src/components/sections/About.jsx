@@ -118,7 +118,7 @@ export const About = () => {
                             </div>
 
                             <div>
-                                <h4 className="font-semibold"> Tech Support Associate @ CGS </h4>
+                                <h4 className="font-semibold"> Tech Support Associate @ Computer Generated Solutions </h4>
                                 <p>
                                 Delivered efficient IT support by resolving technical issues, 
                                 documenting solutions, and communicating clearly to ensure prompt 

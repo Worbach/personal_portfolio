@@ -21,27 +21,31 @@ Make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/personal_portfolio.git
+git clone https://github.com/Worbach/personal_portfolio.git
 cd personal_portfolio
+```
 
-2. Install dependencies:
+### 2. Install dependencies:
 
 ```bash
 npm install
+```
 
-3. Start the development server:
+### 3. Start the development server:
 
 ```bash
 npm run dev
+```
 
 
-4. Open your browser at http://localhost:5173 to view the site
+### 4. Open your browser at http://localhost:5173 to view the site
 
 ```bash
 npm run build
+```
 
 ## 🛠️ Technologies Used
 
@@ -53,4 +57,4 @@ ESLint for linting
 
 ## 📬 Contact
 
-Feel free to reach out via [willorbach01@gmail.com] or connect with me on LinkedIn[https://www.linkedin.com/in/william-orbach-jr/].
+Feel free to reach out via [willorbach01@gmail.com] or connect with me on LinkedIn [https://www.linkedin.com/in/william-orbach-jr].

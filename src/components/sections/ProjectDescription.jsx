@@ -164,18 +164,6 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                         <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                                     </a>
                                     </div>
-                                    <div className="flex items-center">
-                                    <button
-                                        onClick={() => {
-                                            setVideoUrl(Vacation_Scheduler); // passed from App
-                                            setVideoOpen(true);
-                                        }}
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-3"
-                                    >
-                                        View Demo Video
-                                    </button>
-
-                                    </div>
                                 </div>
                             </div>
 
@@ -268,18 +256,6 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                         <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                                     </a>
                                     </div>
-                                    <div className="flex items-center">
-                                    <button
-                                        onClick={() => {
-                                            setVideoUrl(Vacation_Scheduler); // passed from App
-                                            setVideoOpen(true);
-                                        }}
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-3"
-                                    >
-                                        View Demo Video
-                                    </button>
-
-                                    </div>
                                 </div>
                             </div>
 
@@ -353,7 +329,7 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                     hover:border-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                 <h3 className="text-xl font-bold mb-2">Technologies</h3>
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {["ReactJS", "TailwindCSS", "JavaScript (ES6+)", "HTML5/CSS", "JSX", "Vite", "Git for version control", "EmailJS"].map((tech, key) => (
+                                    {["ReactJS", "TailwindCSS", "JavaScript (ES6+)", "HTML5/CSS", "JSX", "Vite", "Node.js", "Git for version control", "EmailJS"].map((tech, key) => (
                                         <span
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm
@@ -373,18 +349,6 @@ export const ProjectDescription = ({ setVideoOpen, setVideoUrl}) => {
                                        className="mx-4">
                                         <img src="/github.png" alt="Github Logo" style={{width: "30%"}}/>
                                     </a>
-                                    </div>
-                                    <div className="flex items-center">
-                                    <button
-                                        onClick={() => {
-                                            setVideoUrl(Vacation_Scheduler); // passed from App
-                                            setVideoOpen(true);
-                                        }}
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-3"
-                                    >
-                                        View Demo Video
-                                    </button>
-
                                     </div>
                                 </div>
                             </div>
