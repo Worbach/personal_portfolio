@@ -30,10 +30,10 @@ export const Home = () => {
                     >
                         Contact Me
                     </a>
-                    <a class="btn content-download button-main button-scheme" href="/src/WillO_Resume.pdf" download="">
+                    <a href="/WillO_Resume.pdf" alt="Will's resume" target="_blank" rel="noopener noreferrer">
                     <button type="button" className="border border-blue-500/50 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right py-3 px-6 rounded font-medium transition-all
                         duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10 cursor-pointer">
-                            Download CV
+                            View Resume
                     </button>
                     </a>
                     
