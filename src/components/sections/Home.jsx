@@ -12,9 +12,9 @@ export const Home = () => {
                     Hi, I'm William Orbach 👋
                 </h1>
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I am a full-stack developer with a passion for building clean, scalable web 
-                applications. My focus is on delivering high-performance solutions that provide a 
-                seamless and engaging user experience.
+                I’m a recent Software Engineering graduate with a passion for building user-friendly, scalable web and mobile apps. 
+                I enjoy working with Java, JavaScript, and Python, and love turning ideas into clean, functional code. I'm excited to keep growing, learning, and contributing to collaborative, 
+                forward-thinking teams.
                 </p>
                 <div className="flex items-center justify-center space-x-4">
                     <a href="#projects"
