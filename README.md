@@ -55,6 +55,8 @@ Vite
 
 ESLint for linting
 
+Vercel for fast, seamless deployment
+
 ## 📬 Contact
 
 Feel free to reach out via [willorbach01@gmail.com] or connect with me on LinkedIn [https://www.linkedin.com/in/william-orbach-jr].
